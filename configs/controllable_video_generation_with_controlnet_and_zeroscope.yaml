@@ -1,0 +1,35 @@
+hydra:
+  output_subdir: null
+  run:
+    dir: .
+
+VDM:
+  ZeroScope:
+    ckpt_path: "./checkpoints/ZeroScope/zeroscope_v2_576w"
+
+IDM:
+  ControlNet:
+    condition: "canny" # ["depth_midas", "canny", "openpose"]
+    mixing_ratio: 1.0
+
+MixedInversion:
+  idm: "SD-v15"
+  pretrained_model_path: "./checkpoints/stable-diffusion-v1-5"
+  # mixing_ratio: 1.0 for ControlNet and InstructPix2Pix, 0.25 for Prompt2Prompt, 0.1 for StableDiffusion-Inpainting
+
+
+Model:
+  idm: "ControlNet"
+  vdm: "ZeroScope"
+  idm_prompt : "A bear walking through a snow mountain"
+  vdm_prompt : "A bear walking through a snow mountain"
+  video_path: "./data/bear.mp4"
+  output_path: "./outputs/"
+  video_length: 8
+  width: 512
+  height: 512
+  frame_rate: 4
+  seed: 42
+  guidance_scale: 7.5
+  num_inference_steps: 50
+

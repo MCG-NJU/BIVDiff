@@ -1,0 +1,16 @@
+
+Pillow
+decord
+diffusers[torch]==0.14.0
+einops
+ftfy
+hydra-core
+imageio
+omegaconf
+pandas
+pytorch-lightning==1.9.5
+scipy
+tensorboard
+torch
+torchvision
+transformers==4.30.2

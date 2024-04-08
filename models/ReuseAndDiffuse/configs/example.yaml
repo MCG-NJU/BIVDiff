@@ -1,0 +1,29 @@
+# @package _global_
+
+hydra:
+  job:
+    chdir: true
+    name: vidrd_${now:%Y%m%d}_${now:%H%M%S}
+
+model:
+  _target_: model.SDVideoModel
+  pretrained_model_path: "assets/stable-diffusion-2-1-base/"
+  ckpt_path: "assets/ModelT2V.pth"
+  temporal_vae_path: "assets/vae_finetuned/"
+  guidance_scale: 10.0
+  num_inference_steps: 50
+  resolution: 256
+  add_temp_embed: true
+  add_temp_conv: true
+
+evaluator:
+  _target_: model.SDVideoModelEvaluator
+  seed: 42
+  num_generated_clips: 1
+  extend_overlap_frames: 4
+  extend_noise_recycle: 4
+  extend_denoise_guidance: 0.4
+  batch_size: 4
+  prompts:
+    - "wood on fire"
+    - "a boat is sailing in a lake"

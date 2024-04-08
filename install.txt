@@ -1,0 +1,16 @@
+pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116  --extra-index-url https://download.pytorch.org/whl/cu116
+pip install pytorch-lightning==1.9.5
+pip install diffusers["torch"]==0.14.0
+pip install transformers==4.30.2
+pip install hydra-core
+pip install pandas
+pip install einops
+pip install imageio
+pip install controlnet-aux==0.0.6
+pip install matplotlib
+pip install decord
+pip install mediapipe
+pip install positional-encodings[pytorch]
+pip install xformers==0.0.16
+pip install triton
+pip install ipython
