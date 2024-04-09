@@ -4,7 +4,7 @@
 [Hang Xu](https://xuhangcn.github.io/), 
 [Songcun Xu](), 
 [Wei Zhang](), 
-[Limin Wang](https://wanglimin.github.io/),
+[Limin Wang](https://wanglimin.github.io/)
 <br/>
 
 [![Project Website](https://img.shields.io/badge/Project-Website-Green)](https://bivdiff.github.io/)
