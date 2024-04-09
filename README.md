@@ -316,16 +316,16 @@ Model:
 <table class="center">
 <td>
 <div style="display: flex; justify-content: center; align-items: center">
-  <img width="50%" src="./assets/results/ZeroScope/edit/InstructPix2Pix/surfing/source_video.gif">
+  <img width="45%" src="./assets/results/ZeroScope/edit/InstructPix2Pix/surfing/source_video.gif">
   &nbsp 
- <img width="50%" src="./assets/results/ZeroScope/edit/InstructPix2Pix/surfing/edit_inverse_and_vdm.gif">
+ <img width="45%" src="./assets/results/ZeroScope/edit/InstructPix2Pix/surfing/edit_inverse_and_vdm.gif">
 </div>
 </td>
 <td>
 <div style="display: flex; justify-content: center; align-items: center">
-  <img width="50%" src="./assets/results/ZeroScope/edit/InstructPix2Pix/train/source_video.gif">
+  <img width="45%" src="./assets/results/ZeroScope/edit/InstructPix2Pix/train/source_video.gif">
 &nbsp
-<img width="50%" src="./assets/results/ZeroScope/edit/InstructPix2Pix/train/edit_inverse_and_vdm.gif">
+<img width="45%" src="./assets/results/ZeroScope/edit/InstructPix2Pix/train/edit_inverse_and_vdm.gif">
 </div>
 </td>
 <tr>
