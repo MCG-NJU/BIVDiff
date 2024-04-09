@@ -204,22 +204,22 @@ Model:
 <tr>
     <td>
         <div style="display: flex; justify-content: center; align-items: center">
-            <img width="50%" src="./assets/results/VidRD/control/ControlNet/depth/mbike-trick/depth_midas_condition.gif">
-            <img width="50%" src="./assets/results/VidRD/control/ControlNet/depth/mbike-trick/controlnet_inverse_and_vdm.gif">
+            <img width="45%" src="./assets/results/VidRD/control/ControlNet/depth/mbike-trick/depth_midas_condition.gif">
+            <img width="45%" src="./assets/results/VidRD/control/ControlNet/depth/mbike-trick/controlnet_inverse_and_vdm.gif">
         </div>
     </td>
 
 <td>
         <div style="display: flex; justify-content: center; align-items: center">
-            <img width="50%" src="./assets/results/VidRD/control/ControlNet/canny/car-turn/canny_condition.gif">
-            <img width="50%" src="./assets/results/VidRD/control/ControlNet/canny/car-turn/controlnet_inverse_and_vdm.gif">
+            <img width="45%" src="./assets/results/VidRD/control/ControlNet/canny/car-turn/canny_condition.gif">
+            <img width="45%" src="./assets/results/VidRD/control/ControlNet/canny/car-turn/controlnet_inverse_and_vdm.gif">
         </div>
     </td>
 
   <td>
     <div style="display: flex; justify-content: center; align-items: center">
-        <img width="50%" src="./assets/results/VidRD/control/ControlNet/pose/moonwalk/openpose_condition.gif">
-        <img width="50%" src="./assets/results/VidRD/control/ControlNet/pose/moonwalk/controlnet_inverse_and_vdm.gif">
+        <img width="45%" src="./assets/results/VidRD/control/ControlNet/pose/moonwalk/openpose_condition.gif">
+        <img width="45%" src="./assets/results/VidRD/control/ControlNet/pose/moonwalk/controlnet_inverse_and_vdm.gif">
     </div>
   </td>
 </tr>
@@ -242,20 +242,20 @@ Model:
 <tr>
   <td>
      <div style="display: flex; justify-content: center; align-items: center">
-        <img width="50%" src="./assets/results/ZeroScope/control/ControlNet/depth/cow/depth_midas_condition.gif">
-        <img width="50%" src="./assets/results/ZeroScope/control/ControlNet/depth/cow/controlnet_inverse_and_vdm.gif">
+        <img width="45%" src="./assets/results/ZeroScope/control/ControlNet/depth/cow/depth_midas_condition.gif">
+        <img width="45%" src="./assets/results/ZeroScope/control/ControlNet/depth/cow/controlnet_inverse_and_vdm.gif">
     </div>
 </td>
   <td>
     <div style="display: flex; justify-content: center; align-items: center">
-    <img width="50%" src="./assets/results/ZeroScope/control/ControlNet/canny/bear/canny_condition.gif">
-    <img width="50%" src="./assets/results/ZeroScope/control/ControlNet/canny/bear/controlnet_inverse_and_vdm.gif">
+    <img width="45%" src="./assets/results/ZeroScope/control/ControlNet/canny/bear/canny_condition.gif">
+    <img width="45%" src="./assets/results/ZeroScope/control/ControlNet/canny/bear/controlnet_inverse_and_vdm.gif">
     </div>
 </td>
   <td>
     <div style="display: flex; justify-content: center; align-items: center">
-    <img width="50%" src="./assets/results/ZeroScope/control/ControlNet/pose/moonwalk/openpose_condition.gif">
-    <img width="50%" src="./assets/results/ZeroScope/control/ControlNet/pose/moonwalk/controlnet_inverse_and_vdm.gif">
+    <img width="45%" src="./assets/results/ZeroScope/control/ControlNet/pose/moonwalk/openpose_condition.gif">
+    <img width="45%" src="./assets/results/ZeroScope/control/ControlNet/pose/moonwalk/controlnet_inverse_and_vdm.gif">
     </div>
     </td>
 </tr>
@@ -271,16 +271,16 @@ Model:
 <table class="center">
 <td>
 <div style="display: flex; justify-content: center; align-items: center">
-  <img width="50%" src="./assets/results/VidRD/control/T2I-Adapter/depth/car-turn-2/depth_midas_condition.gif">
+  <img width="45%" src="./assets/results/VidRD/control/T2I-Adapter/depth/car-turn-2/depth_midas_condition.gif">
   &nbsp 
- <img width="50%" src="./assets/results/VidRD/control/T2I-Adapter/depth/car-turn-2/t2i_adapter_inverse_and_vdm.gif">
+ <img width="45%" src="./assets/results/VidRD/control/T2I-Adapter/depth/car-turn-2/t2i_adapter_inverse_and_vdm.gif">
 </div>
 </td>
 <td>
 <div style="display: flex; justify-content: center; align-items: center">
-  <img width="50%" src="./assets/results/VidRD/control/T2I-Adapter/depth/moonwalk/depth_midas_condition.gif">
+  <img width="45%" src="./assets/results/VidRD/control/T2I-Adapter/depth/moonwalk/depth_midas_condition.gif">
 &nbsp
-<img width="50%" src="./assets/results/VidRD/control/T2I-Adapter/depth/moonwalk/t2i_adapter_inverse_and_vdm.gif">
+<img width="45%" src="./assets/results/VidRD/control/T2I-Adapter/depth/moonwalk/t2i_adapter_inverse_and_vdm.gif">
 </div>
 </td>
 <tr>
