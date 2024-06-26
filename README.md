@@ -403,11 +403,13 @@ Model:
 ## Citation
 If you make use of our work, please cite our paper.
 ```bibtex
-@article{shi2023bivdiff,
-  title={BIVDiff: A Training-Free Framework for General-Purpose Video Synthesis via Bridging Image and Video Diffusion Models},
-  author={Shi, Fengyuan and Gu, Jiaxi and Xu, Hang and Xu, Songcen and Zhang, Wei and Wang, Limin},
-  journal={arXiv preprint arXiv:2312.02813},
-  year={2023}
+@InProceedings{Shi_2024_CVPR,
+    author    = {Shi, Fengyuan and Gu, Jiaxi and Xu, Hang and Xu, Songcen and Zhang, Wei and Wang, Limin},
+    title     = {BIVDiff: A Training-Free Framework for General-Purpose Video Synthesis via Bridging Image and Video Diffusion Models},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {7393-7402}
 }
 ```
 
