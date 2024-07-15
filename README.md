@@ -35,13 +35,15 @@ bash install.txt
 ```
 
 ### 2. Download Weights
-Our framework currently supports two text-to-video diffusion models ([VidRD](https://github.com/anonymous0x233/ReuseAndDiffuse) and [ZeroScope](https://huggingface.co/cerspense/zeroscope_v2_576w/tree/main)) and five downstream image diffusion models ([ControlNet](https://huggingface.co/lllyasviel), [T2I-Adapter](https://huggingface.co/TencentARC/), [InstructPix2Pix](https://huggingface.co/timbrooks/instruct-pix2pix/tree/main), Prompt2Prompt, [Stable Diffusion Inpainting](https://huggingface.co/runwayml/stable-diffusion-inpainting/tree/main)). These models may need [Stable Diffusion v1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5) and [Stable Diffusion v2.1](https://huggingface.co/stabilityai/stable-diffusion-2-1-base). All pre-trained weights are downloaded to checkpoints/ directory. The final file tree likes:
+Our framework currently supports two text-to-video diffusion models ([VidRD](https://github.com/anonymous0x233/ReuseAndDiffuse) and [ZeroScope](https://huggingface.co/cerspense/zeroscope_v2_576w/tree/main)) and five downstream image diffusion models ([ControlNet](https://huggingface.co/lllyasviel), [T2I-Adapter](https://huggingface.co/TencentARC/), [InstructPix2Pix](https://huggingface.co/timbrooks/instruct-pix2pix/tree/main), Prompt2Prompt, [Stable Diffusion Inpainting](https://huggingface.co/runwayml/stable-diffusion-inpainting/tree/main)). These models may need [Stable Diffusion v1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5) and [Stable Diffusion v2.1](https://huggingface.co/stabilityai/stable-diffusion-2-1-base) (put [CLIP](https://huggingface.co/openai/clip-vit-large-patch14) under Stable Diffusion 2.1 dir). All pre-trained weights are downloaded to checkpoints/ directory. The final file tree likes:
 
 **Note: remove the safetensors**
 ```none
 checkpoints
 ├── stable-diffusion-v1-5
 ├── stable-diffusion-2-1-base
+    ├── clip
+    ├── ...
 ├── ControlNet
     ├── control_v11f1p_sd15_depth
     ├── control_v11p_sd15_canny
